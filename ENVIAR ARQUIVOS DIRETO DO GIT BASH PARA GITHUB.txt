@@ -1,0 +1,29 @@
+Crie uma conta no GitHub;
+Crie a pasta  local no PC, depois crie ou copie os arquivos para a pasta que enviará remotamente para o GitHub, a pasta pode ter o mesmo nome da pasta no GitHub.
+Acesse o site do Git, baixe e instale o executável no seu PC;
+Em cima da pasta, clique com o botão direito do mouse, inicie o Git Bash;
+
+Dentro da pasta digite:
+
+1 git init - cria um novo repositório Git ou reinicializa um já existente;
+
+2 git status - verifica o estado atual do repositório;
+
+3 git add . - adicionar alterações em arquivos de um projeto ao índice ou staging área do Git;
+
+4 git commit -m"qualquer frase" - registra as alterações feitas em um projeto no Git;
+
+5 git status
+
+6 git log - exibe o histórico de commits de um repositório, permitindo listar e filtrar as alterações;
+
+Depois de criada a pasta no GitHub digite:
+
+7 git remote add origin "cole aqui a url da pasta criada no GitHub e apague as aspas" - permitem criar, ver, excluir e gerenciar conexões com outros repositórios;
+
+8 git push -u origin main - utilizado para enviar as alterações (commits) do seu repositório local para um repositório remoto;
+
+Para enviar mais arquivos para a mesma pasta remota, cole os novos arquivos na pasta local e repita os passos 3, 4 e 8.
+
+
+
